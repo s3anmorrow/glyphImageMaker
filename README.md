@@ -6,7 +6,7 @@ https://graphicdesign.stackexchange.com/questions/737/how-do-i-break-apart-text-
 https://gist.github.com/davestewart/4529727
 
 # Instructions for use with Texture Packer:
-1) modify variables below to your specifications
+1) modify variables at top of the script to your specifications
 2) open photoshop and create a new PSD file with the canvas big enough to hold all your glyphs. This script will output the glpyhs as one long single line on the canvas. The background should be set to transparent
 3) in photoshop go to in menu file/scripts/browse and select this script
 4) when the dialog opens up - set following settings:
