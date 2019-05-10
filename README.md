@@ -16,7 +16,7 @@ https://gist.github.com/davestewart/4529727
 - Trim Layers: true
 - All other options: false
 5) click ok and the glyph images will be produced and named after each glyph. For instance the letter a will be saved as a.png. NOTE that if you require upper and lower case glyphs then you need to process them in seperate batches as a.png and A.png cannot be put in the same folder in windows or MacOS.
-6) Copy all glyph images into game project folder /lib/glyphs. If you have upper and lowercase copy them into /lib/glyphs/upper and /lib/glyphs/lower accordingly
-7) open texture packer and drag all glyph images into root - do not use a smart folder as the name of the glyph cannot have any prepended folder names on it in the json file. For instance, the glyph for A must have an animation name A and not glyphs/A
+6) Copy all glyph images into game project folder spritesheet/lib/glyphs. If you have upper and lowercase copy them into spritesheet/lib/glyphs/upper and spritesheet/lib/glyphs/lower accordingly
+7) open texture packer and drag all glyph images into root - do not use a smart folder as the name of the glyph cannot have any prepended folder names on it in the json file. For instance, the glyph for A must have an animation name A and not glyphs/A (this might only be an issue for EaselJS framework)
 8) The glyph images will be horizontally trimmed but not vertically. This is so a pivot point can be set for all glyphs that is consistent in Texture Packer.  Select all glyph images and adjust pivot point to be top left and then moved down close to top of the glyphs
 9) publish the spritesheet/json
